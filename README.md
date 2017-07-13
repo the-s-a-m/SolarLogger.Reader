@@ -8,7 +8,7 @@
 Installation
 1. Install java and SSH
 2. Create file remotedebug.xml from remotedebug_example.xml
-  2.1. Update data (ip, username, password) in remotedebug.xml
+2.1. Update data (ip, username, password) in remotedebug.xml
 3. Create file solarreader.properties from solarreader_example.properties
-  3.1 Update Sent details and SolarMax details
+3.1 Update Sent details and SolarMax details
 4. Create Service for generated .jar file 
