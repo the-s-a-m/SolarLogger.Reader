@@ -117,6 +117,8 @@ public class SolarMaxReader {
 							value = value / 10f;
 						} else if(key.contains("I_DC")) {
 							value = value / 100f;
+						} else if(key.contains("P_")) {
+							value = value / 2f;
 						}
 						String valueFormatted = (value % 1.0 != 0) ? String.format("%s", value) : String.format("%.00f",value);
 						jsonResult.append("\"" + key + "\": " + valueFormatted + "");
